@@ -30,10 +30,28 @@
                 <p>En este artículo, hablaré sobre cómo Git me ha ayudado a mejorar mi flujo de trabajo y organización como desarrollador.</p>
             </article>
         </section>
+        <section>
+            <h2>Comentarios</h2>
+            <form id="commentForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+        
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" required></textarea>
+        
+                <button type="submit">Enviar Comentario</button>
+            </form>
+        
+            <div id="comentarios"></div>
+        </section>
+        
     </main>
 
     <footer>
         <p>© 2025 Mi Página Web</p>
     </footer>
+
+    <script src="comments.js"></script>
+
 </body>
 </html>
